@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/activity_score"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_score_view"
+        android:textSize="36sp"
+        android:textColor="#E91E63"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/anton"
+        />
+
+    <TextView
+        android:id="@+id/score_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="40dp"
+        android:fontFamily="@font/coiny"
+        android:gravity="center_horizontal"
+        android:text="Sample Text"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/view_scores"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="6dp"
+        android:background="@drawable/button_50"
+        android:fontFamily="@font/bungee"
+        android:text="@string/high_scores"
+
+        android:textAllCaps="false"
+        app:backgroundTint="#FFFFFF"
+
+        app:backgroundTintMode="multiply" />
+
+    <Button
+        android:id="@+id/replay"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="6dp"
+        android:background="@drawable/button_success"
+        android:fontFamily="@font/bungee"
+        android:text="@string/replay"
+        android:textAllCaps="false"
+        app:backgroundTint="#FFFFFF"
+
+        app:backgroundTintMode="multiply" />
+
+
+</LinearLayout>

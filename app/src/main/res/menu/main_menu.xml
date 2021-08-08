@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/main_screen"
+        android:title="@string/main_screen"/>
+    <item android:id="@+id/high_scores"
+        android:title="@string/high_scores"/>
+    <item android:id="@+id/preferences"
+        android:title="@string/preferences"
+        />
+</menu>

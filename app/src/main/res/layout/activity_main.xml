@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/anton"
+        android:text="@string/title_app"
+        android:textColor="#E91E63"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:layout_marginTop="40dp"
+        android:id="@+id/categories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/dropdown_color"
+        android:clickable="true"
+        android:padding="4dp" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:id="@+id/difficulty"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Easy"
+            android:textSize="20dp"
+            android:id="@+id/easy"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium"
+            android:textSize="20dp"
+            android:id="@+id/medium"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Difficult"
+            android:id="@+id/difficult"
+            android:textSize="20dp"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Enter number of questions"/>
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:background="@drawable/edit_color"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="#F12626"
+        android:id="@+id/number_of_questions"
+        android:inputType="number"
+        />
+
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Begin"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingHorizontal="40dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item name="">Select a category</item>
+        <item name="entertainment">Entertainment</item>
+        <item name="sports">Sports</item>
+        <item name="vehicles">Vehicles</item>
+        <item name="history">History</item>
+        <item name="animals">Animals</item>
+    </string-array>
+
+    <string-array name="color_names">
+        <item name="red">Red</item>
+        <item name="green">Green</item>
+        <item name="blue">Blue</item>
+        <item name="grey">Grey</item>
+        <item name="white">White</item>
+        <item name="black">Black</item>
+    </string-array>
+    <string-array name="color_values">
+        <item name="red">#F44336</item>
+        <item name="green">#73A673</item>
+        <item name="blue">#9999CA</item>
+        <item name="grey">#cecece</item>
+        <item name="white">#fefefe</item>
+        <item name="black">#010101</item>
+    </string-array>
+</resources>
